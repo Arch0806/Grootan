@@ -70,7 +70,7 @@ function getType(value){
             let num = parseFloat(value);
             let tryNum = parseInt(value);
             console.log(num,tryNum);
-            if(isNan(num))return "String";
+            if(isNaN(num) || isNaN(tryNum))return "String";
             if(num === tryNum)return "int";
             return "double";
         }catch(err){
