@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#textbox{
+    min-width: 60%;
+    min-height: 50%;
+    margin-bottom: 1em;
+}
+.error{
+    visibility: hidden;
+    margin-top: 1em;
+}
